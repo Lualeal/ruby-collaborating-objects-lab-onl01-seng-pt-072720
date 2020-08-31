@@ -30,7 +30,9 @@ class Song
     @artist = artist
   end 
   
-  def artist_name=(name) 
+  def artist_name=(name)
+    'Michael Jackson'
+    artist = 
   #Song.all = Artist.all.find {|artist| artist.name == name})
   end 
   
