@@ -31,7 +31,6 @@ class Song
   end 
   
   def artist_name=(name)
-    'Michael Jackson'
     artist = Artist.find_or_create_by_name(name)
     artist.add_song(self)
   #Song.all = Artist.all.find {|artist| artist.name == name})
