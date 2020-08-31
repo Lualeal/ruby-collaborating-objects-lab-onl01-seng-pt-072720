@@ -21,7 +21,7 @@ class Song
     artist = Artist.new(arr[0])
     song = self.new(arr[1])
     artist.add_song(song)
-    #song.artist = artist
+    song.artist = artist
     song
   end
   
